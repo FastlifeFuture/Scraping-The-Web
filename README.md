@@ -1,20 +1,40 @@
 # Scraping The Web
-Build a web application that scrape various websites for data. Display information in a single HTML page
+![](Mission_to_Mars/App_Screenshots/mission_to_mars.png)
 
+## Table of Contents
+* [General Info](#general-info)
+* [Technologies Info](#technologies)
+* [Setup](#setup)
+* [Features](#features)
+
+## General Info
+This project builds a web application that scrape various websites for data. Then Displays the information on a single HTML page. The Data is scraped using Jopyter Notebook, BeautifulSoup, Pandas and Requests/Splinter. Next the app runs a Flask application and returns the information as a dictiondary to MongoDB.
+
+## Technologies
+Project is created with:
 * Jupyter Notebook
-* BeautifulSoup
 * Pandas
 * MongoDB 
 * Flask Application
 
-## Mission to Mars
-Visit Mars websites and scrape facts about Mars to be stored in Mongo Db and displayed on a HTML page
-![](Mission_to_Mars/App_Screenshots/mission_to_mars.png)
+## Set up
+To run this project install it locally:
+```
+$ cd ../scraping-The-Web/Mission_to_Mars/templates
+$ python app.py
+$ Run http://127.0.0.1:5000/ in browser
+```
+Press button to Scrape Data
+![](Mission_to_Mars/App_Screenshots/Scrape_button1.png)
 
-Create a Jupyter Note book and use it to scrape and analyze web pages.
+View the Mars Table
+![](Mission_to_Mars/App_Screenshots/Mars_Table.png)
 
-Visit [Nasa Mars News](https://redplanetscience.com) and collect the latest news and paragraph text
-Visit [JPL Mars Space Images](https://spaceimages-mars.com) for the Featured Image to be stored as a variable
-* https://galaxyfacts-mars.com
-* https://marshemispheres.com
+Check out Mars Hemispheres
+![](Mission_to_Mars/App_Screenshots/Hemispheres.png)
 
+Code snippet of the Flask routes
+![](Mission_to_Mars/App_Screenshots/flask_app.png)
+
+Code snippet of the Scrape Functions
+![](Mission_to_Mars/App_Screenshots/scrape_func.png)
