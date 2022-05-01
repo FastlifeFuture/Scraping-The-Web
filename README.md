@@ -8,7 +8,7 @@
 * [Features](#features)
 
 ## General Info
-This project builds a web application that scrape various websites for data. Then Displays the information on a single HTML page.
+This project builds a web application that scrape various websites for data. Then Displays the information on a single HTML page. The Data is scraped using Jopyter Notebook, BeautifulSoup, Pandas and Requests/Splinter. Next the app runs a Flask application and returns the information as a dictiondary to MongoDB.
 
 ## Technologies
 Project is created with:
@@ -26,11 +26,17 @@ $ Run http://127.0.0.1:5000/ in browser
 ```
 ## Features
 Press button to Scrape Data
-![](../App_Screenshots/Scrape_button.png)
+![](Mission_to_Mars/App_Screenshots/Scrape_button.png)
 
 View the Mars Table
-![](../App_Screenshots/Mars_Table.png)
+![](Mission_to_Mars/App_Screenshots/Mars_Table.png)
 
 Check out Mars Hemispheres
-![](../App_Screenshots/Hemispheres.png)
+![](Mission_to_Mars/App_Screenshots/Hemispheres.png)
+
+Code snippet of the Flask routes
+![](Mission_to_Mars/App_Screenshots/flask_app.png)
+
+Code snippet of the Scrape Functions
+![](Mission_to_Mars/App_Screenshots/scrape_func.png)
 
