@@ -26,11 +26,11 @@ $ Run http://127.0.0.1:5000/ in browser
 ```
 ## Features
 Press button to Scrape Data
-![](App_Screenshots/Scrape_button.png)
+![](../App_Screenshots/Scrape_button.png)
 
 View the Mars Table
-![](App_Screenshots/Mars_Table.png)
+![](../App_Screenshots/Mars_Table.png)
 
 Check out Mars Hemispheres
-![](App_Screenshots/Hemispheres.png)
+![](../App_Screenshots/Hemispheres.png)
 
